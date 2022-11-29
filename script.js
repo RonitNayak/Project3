@@ -56,4 +56,5 @@ function postTime() {
 
 }
 
-postTime()
+setTimeout(postTime,0);
+setInterval(postTime, 1000);
